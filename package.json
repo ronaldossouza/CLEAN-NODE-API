@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ronaldossouza/CLEAN-NODE-API/issues"
   },
-  "homepage": "https://github.com/ronaldossouza/CLEAN-NODE-API#readme"
+  "homepage": "https://github.com/ronaldossouza/CLEAN-NODE-API#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.2.1"
+  }
 }
