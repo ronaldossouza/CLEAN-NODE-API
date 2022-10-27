@@ -13,5 +13,6 @@ describe('SignUp Controller', () => {
     // eslint-disable-next-line @typescript-eslint/no-use-before-define
     const httpRequest = sut.handle(httpRequest)
     expect(httpRequest.statusCode).toBe(400)
+    expect(httpResponse.body).toEqual(new Error('Missing param: name'))
   })
 })
